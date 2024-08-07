@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Name - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Event Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Schedule</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to Event Name</h2>
+            <p>Join us for an unforgettable experience!</p>
+            <a href="#" class="btn">Register Now</a>
+        </div>
+    </section>
+
+    <section class="event-details">
+        <div class="container">
+            <h3>About the Event</h3>
+            <p>Details about the event, speakers, location, and more.</p>
+            <p>Date: August 15, 2024</p>
+            <p>Location: Event Venue, City</p>
+        </div>
+    </section>
+
+    <section class="forms">
+        <div class="container">
+            <h3>Register for the Event</h3>
+            <form id="registration-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <label for="type">Attendee Type:</label>
+                <input type="radio" id="student" name="type" value="student">
+                <label for="student">Student</label>
+                <input type="radio" id="professional" name="type" value="professional">
+                <label for="professional">Professional</label>
+                <input type="radio" id="vip" name="type" value="vip">
+                <label for="vip">VIP</label>
+
+                <label for="sessions">Choose your sessions:</label>
+                <select id="sessions" name="sessions">
+                    <option value="session1">Session 1</option>
+                    <option value="session2">Session 2</option>
+                    <option value="session3">Session 3</option>
+                </select>
+                
+                <label for="password">Create Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the terms and conditions</label>
+                
+                <button type="submit" class="btn">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Event Name. All rights reserved.</p>
+            <ul class="social-media">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
